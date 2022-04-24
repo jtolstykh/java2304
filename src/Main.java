@@ -6,31 +6,31 @@ public class Main {
 
         //23.04
         //sout
-        System.out.println("Hello world!");
-        System.out.println("\"Привет\"");
-        System.out.println(2 + 5);
-
-        //Арифметические действия
-        //целые числа
-        System.out.println(2 + 5);
-        System.out.println(2 - 5);
-        System.out.println(2 * 5);
-        System.out.println(2 / 5);
-        System.out.println(2 % 5);
-
-        //дробные числа
-        System.out.println(2.0 + 5.0);
-        System.out.println(2.0 - 5.0);
-        System.out.println(2.0 * 5.0);
-        System.out.println(2.0 / 5.0);
-        System.out.println(2.0 % 5.0);
-
-        //Строки - текстовый тип данных
-        System.out.println("Левая часть строки " + "Правая часть строки");
-
-        //Порядок операций
-        System.out.println(2 + 3 * 5);
-        System.out.println((2 + 3) * 5);
+//        System.out.println("Hello world!");
+//        System.out.println("\"Привет\"");
+//        System.out.println(2 + 5);
+//
+//        //Арифметические действия
+//        //целые числа
+//        System.out.println(2 + 5);
+//        System.out.println(2 - 5);
+//        System.out.println(2 * 5);
+//        System.out.println(2 / 5);
+//        System.out.println(2 % 5);
+//
+//        //дробные числа
+//        System.out.println(2.0 + 5.0);
+//        System.out.println(2.0 - 5.0);
+//        System.out.println(2.0 * 5.0);
+//        System.out.println(2.0 / 5.0);
+//        System.out.println(2.0 % 5.0);
+//
+//        //Строки - текстовый тип данных
+//        System.out.println("Левая часть строки " + "Правая часть строки");
+//
+//        //Порядок операций
+//        System.out.println(2 + 3 * 5);
+//        System.out.println((2 + 3) * 5);
 
         //Стиль кода IDEA Ctrl + Alt + L
 
@@ -55,39 +55,39 @@ public class Main {
         // long, 8 байт, -9,223,372,036,854,775,888..9,223,372,036,854,775,807
 
         //И float, и double подчиняются международному стандарту IEEE 754
-        System.out.println(5.0 / 2.1);
-        System.out.printf("%.4f", 5.0 / 2.1); //souf ограничение знаков после запятой
-
-        //Символы
-        //char, 1 - 4 байт
-        char c = 'n';
-
-        //Логический тип данных
-        boolean boolTrue = true;
-        boolean boolFalse = false;
+//        System.out.println(5.0 / 2.1);
+//        System.out.printf("%.4f", 5.0 / 2.1); //souf ограничение знаков после запятой
+//
+//        //Символы
+//        //char, 1 - 4 байт
+//        char c = 'n';
+//
+//        //Логический тип данных
+//        boolean boolTrue = true;
+//        boolean boolFalse = false;
 
         //Преобразование типов
         // 1. Восходящее - тип меньшей длины преобразуем в тип большей длины
-        byte smallVar = 12;
-        int bigVar = smallVar;
-        // 2. Нисходящее - тип большей длины преобразуем в тип меньшей длины
-        int bigInt = 127;
-        byte smallByte =  (byte) bigInt;
-
-        //Операции сравнения
-        //проверка на равенство
-        System.out.println(5 == 5); //true
-        System.out.println(5 == 6); //false
-        //проверка на неравества
-        System.out.println(5 != 5); //false
-
-        boolean is5equels5 = 5 == 5;
-        System.out.println(is5equels5);
-
-        //Условные операторы- возможность исполнить блок кода по определенному условию
-        if (5 > 0) {
-            System.out.println("Первое условие было истинным");
-        }
+//        byte smallVar = 12;
+//        int bigVar = smallVar;
+//        // 2. Нисходящее - тип большей длины преобразуем в тип меньшей длины
+//        int bigInt = 127;
+//        byte smallByte = (byte) bigInt;
+//
+//        //Операции сравнения
+//        //проверка на равенство
+//        System.out.println(5 == 5); //true
+//        System.out.println(5 == 6); //false
+//        //проверка на неравества
+//        System.out.println(5 != 5); //false
+//
+//        boolean is5equels5 = 5 == 5;
+//        System.out.println(is5equels5);
+//
+//        //Условные операторы- возможность исполнить блок кода по определенному условию
+//        if (5 > 0) {
+//            System.out.println("Первое условие было истинным");
+//        }
 
 //        double balance = 15540;
 //        double percent = 20.9;
@@ -105,30 +105,30 @@ public class Main {
 
         //Операции с логическими типами
         // Отрицание (not) - обратное значение
-        System.out.println(!true);
-
-         // Или - результат истина, если хотя бы один истина
-        System.out.println(false || true);
-        // И - результат истинный, если оба истина
-        System.out.println(true && true);
+//        System.out.println(!true);
+//
+//        // Или - результат истина, если хотя бы один истина
+//        System.out.println(false || true);
+//        // И - результат истинный, если оба истина
+//        System.out.println(true && true);
 
         //Ввод из консоли
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Введите целое число");
-        int input = sc.nextInt();
-        System.out.println(input);
-
-        System.out.println("Введите сумму на счёт");
-        double balance = sc.nextDouble();
-        System.out.println("Введите процент");
-        double percent = sc.nextDouble();
-        System.out.println("Через год у вас будет " + balance * (1 + percent / 100));
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.println("Введите целое число");
+//        int input = sc.nextInt();
+//        System.out.println(input);
+//
+//        System.out.println("Введите сумму на счёт");
+//        double balance = sc.nextDouble();
+//        System.out.println("Введите процент");
+//        double percent = sc.nextDouble();
+//        System.out.println("Через год у вас будет " + balance * (1 + percent / 100));
 
 
         //Cтроковый тип данных
-        String str = "Привет!";
-        System.out.println(str.length());
+//        String str = "Привет!";
+//        System.out.println(str.length());
         // length - длина строки
         // charAt - получить символ по индексу (с 0)
         // equals - проверка на ранвенство строки
@@ -149,31 +149,109 @@ public class Main {
         //индексы - порядковые номера массива
         //ти_значений[] имя_массива
 
-        int[] array;
-         //1.Создание массива по длине массива
-        //У каждого примитивного типа есть значение по умолчанию: byte, short, int, long -> 0; float, double -> 0.0, boolean -> foals
-        array = new int[5];
+//        int[] array;
+//         //1.Создание массива по длине массива
+//        //У каждого примитивного типа есть значение по умолчанию: byte, short, int, long -> 0; float, double -> 0.0, boolean -> foals
+//        array = new int[5];
 
-         //2.Создание массива на основе значений
-        double[] doubleArray = new double[]{1.1, 2.2, 3.3};
+//         //2.Создание массива на основе значений
+//        double[] doubleArray = new double[]{1.1, 2.2, 3.3};
+//
+//        //Получить количество элементов .length
+//        System.out.println("doubleArray: " + doubleArray.length);
+//
+//        //Вывести содержимое массива
+//        System.out.println(doubleArray);
+//        System.out.println("Массив doubleArray: " + Arrays.toString(doubleArray));
+//
+//        //Взаимодействие элементов по его индексу
+//        System.out.println("Второй элемент в doubleArray: " + doubleArray[1]);
+//
+//        doubleArray[0] = 100;
 
-        //Получить количество элементов .length
-        System.out.println("doubleArray: " + doubleArray.length);
+        //Циклы- возможность повторять один и тот же код
 
-        //Вывести содержимое массива
-        System.out.println(doubleArray);
-        System.out.println("Массив doubleArray: " + Arrays.toString(doubleArray));
+        //while
 
-        //Взаимодействие элементов по его индексу
-        System.out.println("Второй элемент в doubleArray: " + doubleArray[1]);
+//        int q = 5;
+//        while (q > 0){
+//            System.out.println(q);
+//            q = q -1;
+//
+//        }
 
-        doubleArray[0] = 100;
+        //do-while
+//        q = 5;
+//        do {
+//            System.out.println(q);
+//            q = q - 1;
+//        } while (q > 0);
+//
+//        // цикл for
+//        for (int i = 0; i <= 6; i = i -1){
+//            System.out.println(i);
+//        }
+
+        //continue
+        // break- позволяет выйти из цикла без условий
+
+        //Работа с массивами через циклы
+//        int[] numbers = new int[100];
+//        System.out.println(Arrays.toString(numbers));
+//        for (int index = 0; index < numbers.length; index++){
+//            numbers[index] = index + 1;
+//        }
+//        System.out.println(Arrays.toString(numbers));
 
 
+//        int[] numArray = new int[]{10, 12, 15, 52, 55, 98};
+//        for(int index = 0; index < numArray.length; index++){
+//            int element = numArray[index];
+//            if (element % 2 != 0) {
+//                numArray[index] = 0;
+//            } else {
+//            System.out.println(element);}
+//        }
 
+//        System.out.println(Arrays.toString(numArray));
 
+        Scanner sc = new Scanner(System.in);
+        double array[];
+        System.out.println("Введите число");
+        int num2 = sc.nextInt();
+        if (num2 > 0) {
+            array = new double[num2];
+            for (int index = 0; index < array.length; index++) {
+                double element = index * index + 0.5;
+                array[index] = element;
 
+            }
+            System.out.println(Arrays.toString(array));
 
+        }
 
     }
-}
+    }
+
+
+
+
+
+//        double[] doubleArray = new double[]{10.021, -12.5454, 0};
+//        for(int index = 0; index < doubleArray.length; index++){
+//            double element = doubleArray[index];
+//            if (element < 0){
+//                System.out.println("Неположительный элемент: " + element);
+//            } else if (element > 0) {
+//                System.out.println("Положительный элемент: " + element);
+//            } else {
+//                System.out.println("Неположительный элемент: " + element);
+//
+//            }
+//        }
+
+
+
+
+
+
