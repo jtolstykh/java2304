@@ -2,7 +2,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+
+        public static void main(String[] args) {
 
         //23.04
         //sout
@@ -215,26 +216,23 @@ public class Main {
 
 //        System.out.println(Arrays.toString(numArray));
 
-        Scanner sc = new Scanner(System.in);
-        double array[];
-        System.out.println("Введите число");
-        int num2 = sc.nextInt();
-        if (num2 > 0) {
-            array = new double[num2];
-            for (int index = 0; index < array.length; index++) {
-                double element = index * index + 0.5;
-                array[index] = element;
-
-            }
-            System.out.println(Arrays.toString(array));
-
-        }
-
-    }
-    }
-
-
-
+//        Scanner sc = new Scanner(System.in);
+//        double array[];
+//        System.out.println("Введите число");
+//        int num2 = sc.nextInt();
+//        if (num2 > 0) {
+//            array = new double[num2];
+//            for (int index = 0; index < array.length; index++) {
+//                double element = index * index + 0.5;
+//                array[index] = element;
+//
+//            }
+//            System.out.println(Arrays.toString(array));
+//
+//        }
+//
+//    }
+//    }
 
 
 //        double[] doubleArray = new double[]{10.021, -12.5454, 0};
@@ -247,8 +245,8 @@ public class Main {
 //            } else {
 //                System.out.println("Неположительный элемент: " + element);
 //
-//            }
-//        }
+            }
+        }
 
 
 
