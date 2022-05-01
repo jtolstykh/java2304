@@ -3,7 +3,14 @@ import java.util.Scanner;
 
 public class Main {
 
-        public static void main(String[] args) {
+    String newColor;
+
+     static void paint(String newColor, Figure figure){
+         figure.color = newColor;
+         System.out.println(figure.color);
+    }
+
+    public static void main(String[] args) {
 
         //23.04
         //sout
@@ -244,7 +251,24 @@ public class Main {
 //                System.out.println("Положительный элемент: " + element);
 //            } else {
 //                System.out.println("Неположительный элемент: " + element);
-//
+
+            Figure square = new Figure(5, 6, "green");
+            System.out.println(square.toString());
+            System.out.println(square.distance());
+
+            Circle circle = new Circle(8,9,"red",55);
+            System.out.println(circle.toString());
+            System.out.println(circle.area());
+            System.out.println(circle.distance());
+
+
+            Figure figure = new Figure(10, 2, "yellow");
+            paint("white", figure);
+            System.out.println(figure);
+
+            Duck duck = new Duck();
+
+
             }
         }
 
