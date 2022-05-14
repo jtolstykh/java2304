@@ -266,7 +266,7 @@ public class Main {
             paint("white", figure);
             System.out.println(figure);
 
-            Duck duck = new Duck();
+
 
 
             }
